@@ -1,22 +1,20 @@
 * {
-    /* background-color: wheat; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-
-a {
+   
+ a {
     text-decoration: none;
 }
 
-header {
+#div0 {
     background-color: #000000c1;
 
 }
 
-header ul {
+#div0>ul {
     padding: 0% 20%;
 
     display: flex;
@@ -26,17 +24,63 @@ header ul {
 }
 
 
-header ul li a {
+#div0 > ul > li > a {
     color: white;
 }
 
-header ul li {
+#div0 > ul > li {
     display: block;
     padding: 15px 0px;
     color: white;
-
     font-size: 12px;
-}
+    align-items: center;
+   
+} 
+
+  
+ /*  nav {
+    background-color: #303030;
+    width: 100vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2079d2;
+  }
+  header {
+    background: #fbfbfd;
+    width: 100vw;
+  }
+  #div0 {
+    background-color: #303030;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    height: 44px;
+    width: 100px;
+   
+  }
+  
+  #div0 > ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  #div0 > ul > li {
+    margin-inline: 20px;
+  }
+  
+  #div0 > ul > li > a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #bag {
+    margin-left: 20px;
+  } */
+  
+
 
 /* List CSS */
 
@@ -46,12 +90,10 @@ header ul li {
 
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+     /* align-items: center; */
     gap: 10px;
-
     font-size: 10px;
     text-align: center;
-
     background-color: #6e6e7313;
 }
 
@@ -82,7 +124,6 @@ header ul li {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-
     margin: 5% 10% 1% 10%;
 }
 
@@ -519,5 +560,136 @@ header ul li {
 }
 
 
+/* Feature 5 */
 
- 
+.feature5-fig1 {
+    position: absolute;
+    top: -55px;
+    left: calc(50% - 63.01px);
+    width: 106px;
+    height: 106px;
+    object-fit: cover;
+    }
+    .give-wow {
+    position: absolute;
+    top: 37px;
+   /*  left: calc(50% - 231.41px); */
+     font-size: 90px;
+    letter-spacing: -0.27px;
+    line-height: 100.01px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 452px;
+    height: 108px;
+    }
+    .shop {
+        position: absolute;
+        font-size: 21px;
+        letter-spacing: 0.23px;
+        line-height: 29px;
+        color: #2997ff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 249px;
+        height: 25px;
+        white-space: nowrap;
+    }
+
+    .div3 {
+        position: absolute;
+        width: 101.26%;
+        top: 4px;
+        left: 0%;
+        letter-spacing: 0.23px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 21px;
+        }
+        .span {
+        position: absolute;
+        top: 0px;
+        left: calc(50% + 116.91px);
+        width: 15.81px;
+        height: 25px;
+        }
+        .shop-the-holiday-gift-guide {
+        position: absolute;
+        top: 143px;
+        left: calc(50% - 142.73px);
+        width: 265.45px;
+        height: 25px;
+        font-size: 21px;
+        color: #2997ff;
+        }
+    .div2 {
+    position: absolute;
+    top: calc(50% - 84px);
+    left: calc(50% - 589.97px);
+    width: 462.83px;
+    height: 170px;
+    }
+    .feature5-fig2 {
+    position: absolute;
+    top: calc(50% - 276.5px);
+    left: calc(50% - 27.08px);
+    width: 667px;
+    height: 555px;
+    object-fit: cover;
+    }
+    .div1 {
+    position: absolute;
+    width: 95.83%;
+    top: 0px;
+    right: 2.08%;
+    left: 2.08%;
+    background-color: #01012a;
+    height: 587px;
+    overflow: hidden;
+    }
+    .feature5 {
+    position: relative;
+    width: 100%;
+    height: 617px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 90px;
+    color: #fff;
+    font-family: 'SF Pro Display';
+    }
+
+    /* Feature 6 */
+.ways-to-buy {
+        position: relative;
+        font-size: 56px;
+        letter-spacing: -0.28px;
+        line-height: 60px;
+        display: flex;
+        font-family: 'SF Pro Display';
+        color: #1d1d1f;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 494.49px;
+        height: 67px;
+}
+
+.Special-carrier {
+    position: relative;
+    font-size: 24px;
+    letter-spacing: 0.22px;
+    line-height: 28px;
+    display: flex;
+    font-family: 'SF Pro Display';
+    color: #1d1d1f;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 322.36px;
+    height: 29px;
+    }
+    
